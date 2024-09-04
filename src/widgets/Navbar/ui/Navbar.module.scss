@@ -1,0 +1,20 @@
+.Navbar {
+    width: 100%;
+    height: var(--navbar-height);
+    background: linear-gradient(135deg, rgb(226 226 226 / 50%), rgb(201 214 255 / 50%));
+    backdrop-filter: blur(30px);
+    border: 1px solid rgb(255 255 255 / 18%);
+    box-shadow: 0 8px 32px 0 rgb(0 0 0 / 37%);
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.links {
+    margin-left: auto;
+    font-weight: 700;
+}
+
+.mainLink {
+    margin-right: 15px;
+}

@@ -1,0 +1,53 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "title": "a title",
+      "userId": "1"
+    },
+    {
+      "id": "2",
+      "title": "another title 2",
+      "userId": "2"
+    },
+    {
+      "id": "3",
+      "title": "another title 3",
+      "userId": "3"
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "text": "a comment about post 1",
+      "postId": "1"
+    },
+    {
+      "id": "2",
+      "text": "another comment about post 1",
+      "postId": "1"
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "username": "admin@gmail.com",
+      "password": "123"
+    },
+    {
+      "id": "1",
+      "username": "user@gmail.com",
+      "password": "123"
+    }
+  ],
+  "profile": {
+    "first": "Yerassyl",
+    "lastname": "Kenzhakhmetov",
+    "age": 23,
+    "currency": "KZT",
+    "country": "Kazakhstan",
+    "city": "Astana",
+    "username": "admin",
+    "avatar": "https://img.freepik.com/free-vector/mysterious-mafia-man-smoking-cigarette_52683-34828.jpg"
+  }
+}

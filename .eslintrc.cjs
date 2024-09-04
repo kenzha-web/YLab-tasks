@@ -4,7 +4,11 @@ module.exports = {
         es2021: true,
         jest: true,
     },
-    extends: ['plugin:react/recommended', 'airbnb', 'plugin:i18next/recommended', 'plugin:storybook/recommended'],
+    extends: [
+        'plugin:react/recommended',
+        'airbnb',
+        'plugin:i18next/recommended',
+    ],
     // overrides: [
     //     {
     //         env: {
@@ -68,10 +72,17 @@ module.exports = {
         'jsx-a11y/click-events-have-key-events': 'off',
         'react-hooks/rules-of-hooks': 'error',
         'react-hooks/exhaustive-deps': 'error',
-        'no-param-reassign': 'off'
+        'no-param-reassign': 'off',
+        'no-undef': 'off',
+        'lines-between-class-members': [
+            'error',
+            'always',
+            {'exceptAfterSingleLine': true},
+        ]
     },
     globals: {
         __IS_DEV__: true,
+        __API__: true,
     },
     overrides: [
         {

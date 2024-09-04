@@ -1,11 +1,22 @@
+@import "reset";
 @import "variable/global";
+@import "themes/light";
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+body {
+    font: var(--font-m);
+    color: var(--primary-color);
 }
 
 .app {
-  color: var(--red-light);
+    background: var(--bg-color);
+    min-height: 100vh;
+}
+
+.content-page {
+    display: flex;
+}
+
+.page-wrapper {
+    flex-grow: 1;
+    padding: 20px;
 }

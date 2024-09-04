@@ -1,4 +1,3 @@
-// @ts-ignore
 import webpack from 'webpack';
 import { buildPlugins } from './buildPlugins';
 import { buildLoaders } from './buildLoaders';
